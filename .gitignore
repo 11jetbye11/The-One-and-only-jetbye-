@@ -1,0 +1,39 @@
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+node_modules/
+venv/
+env/
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build and runtime
+*.log
+.cache/
+tmp/
+temp/
+
+# OS files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Testing
+.pytest_cache/
+.nyc_output/
+coverage/
+
+# Misc
+.turbo/
